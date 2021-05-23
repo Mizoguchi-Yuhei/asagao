@@ -42,17 +42,17 @@ a img {
 
 /* ナビゲーション */
 nav ul,
-ul.toolbar,
-ul.links {
+ul .toolbar,
+ul .links {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 nav ul li,
-div.toolbar li,
-ul.toolbar li,
-ul.links li {
+div .toolbar li,
+ul .toolbar li,
+ul .links li {
   display: inline;
 }
 
@@ -85,7 +85,7 @@ header {
   padding-top: 4px;
 }
 
-ul.account-menu {
+ul .account-menu {
   text-align: right;
 }
 
@@ -106,7 +106,7 @@ footer nav ul li:not(:last-child):after {
 }
 
 /* メニューバー */
-nav.menubar {
+nav .menubar {
   padding: 2px;
   background-color: #000;
   color: #ccc;
@@ -114,29 +114,29 @@ nav.menubar {
   padding: 8px 16px;
 }
 
-nav.menubar ul li:not(:last-child):after {
+nav .menubar ul li:not(:last-child):after {
   color: #ccc;
   content: " | ";
   margin: 0 2px;
 }
 
 /* メニューバーのリンク */
-nav.menubar a { text-decoration: none; }
+nav .menubar a { text-decoration: none; }
 
 /* メニューバーのリンク（未訪問） */
-nav.menubar a:link { color: #ccc; }
+nav .menubar a:link { color: #ccc; }
 
 /* メニューバーのリンク（訪問済） */
-nav.menubar a:visited { color: #ccc; }
+nav .menubar a:visited { color: #ccc; }
 
 /* メニューバーのリンク（マウスを合わせたとき） */
-nav.menubar a:hover {
+nav .menubar a:hover {
   color: #f88;
   text-decoration: underline;
 }
 
 /* メニューバーのリンク（現在のページ） */
-nav.menubar span {
+nav .menubar span {
   color: #ff8;
   font-weight: bold;
 }
@@ -163,41 +163,41 @@ main p {
   line-height: 1.5;
 }
 
-ul.toolbar,
-div.toolbar {
+ul .toolbar,
+div .toolbar {
   padding: 15px 0;
   font-size: 90%;
   text-align: right;
 }
 
-ul.toolbar li:not(:last-child):after {
+ul .toolbar li:not(:last-child):after {
   color: #888;
   content: " | ";
   margin: 0 2px;
 }
 
 /* サイドバー */
-form#login-form {
+form #login-form {
   font-size: 12px;
 }
 
-form#login-form div {
+form #login-form div {
   padding: 2px;
   text-align: center;
 }
 
-form#login-form label {
+form #login-form label {
   display: inline-block;
   width: 80px;
   text-align: center;
 }
 
-form#login-form input[type="text"],
-form#login-form input[type="password"] {
+form #login-form input[type="text"],
+form #login-form input[type="password"] {
   width: 120px;
 }
 
-aside#sidebar h2 {
+aside #sidebar h2 {
   color: #080;
   font-weight: bold;
   border-bottom: 1px dotted #080;
@@ -205,11 +205,11 @@ aside#sidebar h2 {
   font-size: 100%;
 }
 
-aside#sidebar ul {
+aside #sidebar ul {
   padding-left: 1em;
   list-style-type: none;
 }
 
-aside#sidebar li {
+aside #sidebar li {
   margin-bottom: 0.3em;
 }
